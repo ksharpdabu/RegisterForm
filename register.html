@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新用户注册</title>
+
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js"></script>
+</head>
+<body>
+
+ <div id="header">
+     <img src="./images/register_logo.gif" alt=""  >
+ </div>
+
+
+<div id="main">
+
+             <div class="content">
+
+                 <form action=""  method="post" name="registerForm" onsubmit="return checkForm()" >
+
+                     <dl>
+                         <dt>通行证用户名：</dt>
+                         <dd><input type="text" id="username" name="username"  class="inputs"
+                                    onfocus="usernameFocus()"
+                                    onblur="usernameBlur()"> @163.com</dd>
+                         <div id="usernameId" >
+
+                         </div>
+                     </dl>
+
+
+                     <dl>
+                         <dt>登录密码：</dt>
+                         <dd><input type="text" id="password" name="password"
+                                    class="inputs"
+                                    onfocus="passwordFocus()"
+                                    onblur="passwordBlur()"
+                         ></dd>
+
+                         <div id="passwordId" >
+
+                         </div>
+
+
+                     </dl>
+
+
+                     <dl>
+                         <dt>重复登录密码：</dt>
+                         <dd><input type="text" id="repass" name="repass"
+                                    class="inputs"
+
+                                    onblur="repassBlur()"></dd>
+
+                         <div id="repassId" >
+
+                         </div>
+
+
+                     </dl>
+
+
+                     <dl>
+
+                         <dt>性别：</dt>
+
+                         <dd>
+                             <input type="radio" name="sex" value="男" checked="true"> 男
+                             <input type="radio" name="sex" value="女">女
+
+                         </dd>
+
+
+
+
+                     </dl>
+
+
+                     <dl>
+                         <dt>真实姓名：</dt>
+                         <dd><input type="text" id="realname" name="realname"
+
+                                    class="inputs"
+
+                         ></dd>
+
+                     </dl>
+
+                     <dl>
+                         <dt>昵称：</dt>
+                         <dd><input type="text" id="nickname" name="nickname"
+                                    class="inputs"
+                                    onfocus="nicknameFocus()"
+                                    onblur="nicknameBlur()"
+
+                         ></dd>
+
+                         <div id="nicknameId"  >
+
+                         </div>
+
+
+                     </dl>
+
+                     <dl>
+                         <dt>关联手机号：</dt>
+                         <dd><input type="text" id="phone" name="phone"
+                                    class="inputs"
+                                    onfocus="phoneFocus()"
+                                    onblur="phoneBlur()"></dd>
+
+                         <div id="phoneId"  >
+
+                         </div>
+
+
+                     </dl>
+
+                     <dl>
+                         <dt>保密邮箱：</dt>
+                         <dd><input type="text" id="email" name="email"
+                                    class="inputs"
+                                    onfocus="emailFocus()"
+                                    onblur="emailBlur()"
+                         ></dd>
+
+                         <div id="emailId" >
+
+                         </div>
+
+
+                     </dl>
+
+
+                     <dl>
+                         <dt></dt>
+                         <dd>
+                             <input type="image" src="images/button.gif">
+
+
+                         </dd>
+
+
+                     </dl>
+
+
+                 </form>
+             </div>
+
+
+</div>
+
+
+</body>
+</html>

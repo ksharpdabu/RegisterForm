@@ -1,0 +1,124 @@
+
+body, dl, dt, dd, form, div {
+
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: 0 auto;
+
+    width: 80%;
+}
+
+#header {
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+dt {
+
+    text-align: right;
+    width: 130px;
+    height: 30px;
+    line-height: 25px;
+}
+
+dd {
+
+    width: 180px;
+
+    font-size: 12px;
+    color: #666666;
+}
+
+dt, dd {
+
+    float: left;
+
+}
+
+dl {
+    /*清除周围的浮动元素*/
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 650px;
+    /*background-color: #b0e0e6;*/
+    margin: auto;
+
+    border: solid 1px grey;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding-bottom: 15px;
+
+    /*闭合浮动，避免子元素float，导致脱离父容器，不能撑起父容器的高度*/
+    overflow: hidden;
+
+}
+
+.content div {
+    float: left;
+    font-size: 12px;
+    color: #000;
+}
+
+#username {
+    width: 110px;
+}
+
+/*当鼠标放到文本框时，提示文本的样式*/
+.import_prompt {
+    border: solid 1px #ffcd00;
+    background-color: #ffffda;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 20px;
+}
+
+/*当文本框内容不符合要求时，提示文本的样式*/
+.error_prompt {
+
+    border: solid 1px red;
+    background-image: url("../images/li_err.gif");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #fff2e5;
+    background-position: 5px 50%;
+    padding: 2px 5px 0px 25px;
+    line-height: 20px;
+
+}
+
+/*当文本框内容输入正确时，提示文本的样式*/
+.ok_prompt {
+    border: solid 1px #01be00;
+    background-color: #e6fee4;
+    background-image: url(../images/li_ok.gif);
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+    padding: 2px 5px 0px 25px;
+    line-height: 20px;
+}
+
+.inputs {
+
+    border: solid 1px #a4c8e0;
+    width: 150px;
+    height: 15px;
+}
+
+
+
+
+
+
