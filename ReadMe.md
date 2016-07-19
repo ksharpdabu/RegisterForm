@@ -7,9 +7,9 @@
 
 
 关键点：
-backgroud-position
-onfocus
-onblur
+ backgroud-position
+ onfocus
+ onblur
 
 遇到的问题：
 1.子元素浮动，导致父容器高度无法撑开
